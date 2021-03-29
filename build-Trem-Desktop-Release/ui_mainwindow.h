@@ -151,7 +151,7 @@ public:
         label_trem4->setStyleSheet(QString::fromUtf8("QLabel { background: red}"));
         label_trem5 = new QLabel(centralWidget);
         label_trem5->setObjectName(QString::fromUtf8("label_trem5"));
-        label_trem5->setGeometry(QRect(490, 390, 21, 17));
+        label_trem5->setGeometry(QRect(470, 390, 21, 17));
         label_trem5->setStyleSheet(QString::fromUtf8("QLabel { background: red}"));
         verticalLayoutWidget = new QWidget(centralWidget);
         verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));

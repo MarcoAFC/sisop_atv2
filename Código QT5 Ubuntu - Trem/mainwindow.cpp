@@ -15,7 +15,7 @@ MainWindow::MainWindow(QWidget *parent) :
     trem2 = new Trem(2,330,30);
     trem3 = new Trem(3,600,30);
     trem4 = new Trem(4,260,390);
-    trem5 = new Trem(5,470,390);
+    trem5 = new Trem(5,490,390);
     for(int i = 0; i < 7; i++){
         pthread_mutex_init(&(rc[i]), NULL);
     }
